@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/** @section Card */
+
+.card {
+    background: var(--secondary-background);
+    display: flex;
+    flex-direction: column;
+    padding: var(--card-padding);
+    width: var(--card-width);
+    border-radius: var(--card-border-radius);
+    box-shadow: 0 var(--card-shadow-offset-y) var(--card-shadow-blur) var(--card-shadow);
+    p,
+    .title {
+        text-align: center;
+    }
+    p {
+        font-size: var(--text-size);
+        letter-spacing: var(--text-letter-spacing);
+        color: var(--primary);
+        &:not(:last-child) {
+            margin-inline: var(--card-padding);
+        }
+        &:last-child {
+            background: url(images/qr-code-background.svg);
+            aspect-ratio: 1;
+            display: grid;
+            place-content: center;
+            border-radius: var(--qr-code-border-radius);
+            order: -1;
+        }
+    }
+    .title {
+        font-size: var(--title-size);
+        color: var(--secondary);
+        margin-block: 2.4rem 1.6rem;
+    }
+}

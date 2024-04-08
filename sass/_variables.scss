@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Variables
+:root {
+    --font: "Outfit", sans-serif;
+    --primary: hsl(220, 15%, 55%);
+    --secondary: hsl(218, 44%, 22%);
+    --primary-background: hsl(212, 45%, 89%);
+    --secondary-background: white;
+    --title-size: 2.2rem;
+    --text-size: 1.5rem;
+    --text-letter-spacing: .019rem;
+    --card-shadow: rgb(0 0 0 / 4.77%);
+    --card-shadow-offset-y: 2.5rem;
+    --card-shadow-blur: 2.5rem;
+    --card-border-radius: 2rem;
+    --card-padding: 1.6rem;
+    --card-width: calc(32rem - (2 * var(--card-padding)));
+    --qr-code-border-radius: 1rem;
+}
