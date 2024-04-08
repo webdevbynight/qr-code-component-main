@@ -19,7 +19,7 @@
         letter-spacing: var(--text-letter-spacing);
         color: var(--primary);
         &:not(:last-child) {
-            margin-inline: var(--card-padding);
+            margin-inline: var(--card-text-margin);
         }
         &:last-child {
             background: url(images/qr-code-background.svg);
