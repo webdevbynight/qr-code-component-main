@@ -14,7 +14,7 @@
     --card-shadow-offset-y: 2.5rem;
     --card-shadow-blur: 2.5rem;
     --card-border-radius: 2rem;
-    --card-padding: 1.6rem;
-    --card-width: calc(32rem - (2 * var(--card-padding)));
+    --card-padding: 1.6rem 1.6rem 4rem;
+    --card-width: calc(32rem - (2 * 1.6rem));
     --qr-code-border-radius: 1rem;
 }
